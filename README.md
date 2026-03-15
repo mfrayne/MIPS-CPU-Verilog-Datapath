@@ -18,7 +18,8 @@ In a processor, the **datapath** is the part of the CPU that performs arithmetic
 
 - Written entirely in **Verilog HDL**
 - Modular hardware architecture
-- Implements a simplified **MIPS-style datapath**
+- Implements a pipelined **MIPS datapath**
+- Handles basic mips instructions along with Jumps and Hazard detection
 - Designed and synthesized using **Vivado**
 - Demonstrates key processor components including:
   - Program Counter (PC)
@@ -108,12 +109,11 @@ This project was developed to gain hands-on experience with:
 ```bash
 git clone https://github.com/mfrayne/MIPS-CPU-Verilog-Datapath.git
 ```
+3. Unzip the **Final_Project_EXTRA_CREDIT (3).zip** file
+   
+2. Ensure **Vivado** in installed (Installation Guide can be found here: [https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/vivado.html](url))
 
-2. Open **Vivado**
-
-3. Create a new **RTL Project**
-
-4. Add all Verilog source files from the repository
+3. Run the **.xpr** file
 
 5. Run:
    - **Behavioral Simulation** to test functionality
@@ -144,27 +144,3 @@ This project demonstrates experience with:
 - Debugging and simulation in Vivado
 - Processor datapath implementation
 
----
-
-## Future Improvements
-
-Possible extensions include:
-
-- Implementing a **complete control unit**
-- Adding **pipeline stages**
-- Supporting additional **MIPS instructions**
-- Integrating a **hazard detection unit**
-- Deploying the design on an FPGA board
-
----
-
-## Author
-
-**Michael Frayne**
-
-Computer engineering / computer science student interested in:
-
-- Computer architecture
-- FPGA development
-- Embedded systems
-- Low-level systems programming
