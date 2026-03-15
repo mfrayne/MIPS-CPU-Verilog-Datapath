@@ -14,6 +14,10 @@ In a processor, the **datapath** is the part of the CPU that performs arithmetic
 
 ---
 
+## Datapath Diagram
+<img width="624" height="418" alt="Image" src="https://github.com/user-attachments/assets/bb431e3f-e68a-40c1-8411-235aa526fbc0" />
+
+
 ## Features
 
 - Written entirely in **Verilog HDL**
